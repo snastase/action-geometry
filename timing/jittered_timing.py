@@ -44,6 +44,6 @@ with open(join(sim_dir, 'out.mrt.{0}'.format(min_iter))) as f:
 with open(join(sim_dir, 'stimes.{0}_01_trial.1D'.format(min_iter))) as f:
     timing = np.array([[float(onset) for onset in line.split()] for line in f.readlines()])
 
-assert timing.shape == (8, 124)
+assert timing.shape == (8, 103)
 
 h5save(join(timing_dir, 'timing_final_{0}.hdf5'.format(participant)), timing)
