@@ -20,7 +20,7 @@ timing_dir = join(scripts_dir, 'timing')
 
 if len(sys.argv) == 1:
     participant = 99
-    print "WARNING: Test run with participant set to 99!"
+    print "WARNING: Test run with participant set to {0}!".format(participant)
 else:
     participant = int(sys.argv[1]) 
 
@@ -38,6 +38,15 @@ with open(join(scripts_dir, 'stimuli.csv')) as f:
 assert len(categories) == 18
 for stimulus_fns in categories.values():
     assert len(stimulus_fns) == 5
+
+prep_categories = {i: [] for i in range(1, 19)}
+with open(join(scripts_dir, 'prep_stimuli.csv')) as f:
+    for line in f.readlines():
+        prep_categories[int(line.split(',')[1])].append(line.strip().split(',')[2])
+
+assert len(prep_categories) == 18
+for stimulus_fns in prep_categories.values():
+    assert len(stimulus_fns) == 1
 
 timing_sequence = []
 for run_timing, run_sequence in zip(timing, sequence):
@@ -76,35 +85,10 @@ for timing_sequence in [timing_sequence_1, timing_sequence_2]:
                     trial.append('question')
                 continue
             
-            if run_i == 0 and trial_i < 3:
-                initial_three_first_run[trial_category] = [categories_shuffle[trial_category][0]]
-                trial.append(categories_shuffle[trial_category][0])
-                assert len(initial_three_first_run) <= 3
-            elif trial_i in range(len(timing_sequence[0]))[-3:]:
-                if run_i not in final_three.keys():
-                    final_three.update({run_i: {}})
-                final_three[run_i].update({trial_category: [categories_shuffle[trial_category][0]]})
-                trial.append(categories_shuffle[trial_category].pop(0))
-            elif run_i > 0 and trial_i < 3:
-                trial.append(final_three[run_i - 1][trial_category][0])
-                print("Appended first three")
-            elif run_i == 3 and trial_i in range(len(timing_sequence[0]))[-3:]:
-                trial.append(initial_three_first_run[trial_category][0])
-            elif trial_i == 3:
-                if run_i == 0 and categories_shuffle[trial_category][0] == initial_three_first_run[trial_category][0]:
-                    trial.append(categories_shuffle[trial_category].pop(1))
-                elif run_i > 0 and categories_shuffle[trial_category][0] == final_three[run_i - 1][trial_category][0]:
-                    trial.append(categories_shuffle[trial_category].pop(1))
-                else:
-                    trial.append(categories_shuffle[trial_category].pop(0))
+            if trial_i < 3:
+                trial.append(prep_categories[trial_category][0]) 
             else:
-                if run_i == 3 and trial_category in initial_three_first_run:
-                    if categories_shuffle[trial_category][0] == initial_three_first_run[trial_category][0]:
-                        trial.append(categories_shuffle[trial_category].pop(1))
-                    else:
-                        trial.append(categories_shuffle[trial_category].pop(0))
-                else:
-                    trial.append(categories_shuffle[trial_category].pop(0))
+                trial.append(categories_shuffle[trial_category].pop(0))
 
         #assert len(initial_three_first_run) == 3
         for category_id in categories_shuffle.keys():
@@ -126,7 +110,7 @@ from copy import deepcopy
 verbs_reference = deepcopy(verbs)
 
 # Change this if verb selection hangs, e.g., to 50
-seed_increment = 0
+seed_increment = 50
 start_time = time()
 for sequence_i, timing_sequence in enumerate([timing_sequence_1, timing_sequence_2]):
     initial_three_first_run = {}
