@@ -1,0 +1,1340 @@
+0.1869 	WARNING 	Monitor specification not found. Creating a temporary one...
+1.3447 	EXP 	Created Window = Window(allowGUI=True, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdced24b3d0>, name='Window', pos=[0, 0], screen=1, size=array([1280, 1024]), stereo=False, units=u'norm', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+1.4810 	EXP 	Created Instructions = TextStim(alignHoriz='left', alignVert='top', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Instructions', opacity=1.0, ori=0.0, pos=array([-0.9,  0.8]), rgb=array([ 1.,  1.,  1.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.8)
+1.5045 	EXP 	Created Question example = TextStim(alignHoriz='center', alignVert='bottom', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Question example', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.35]), rgb=array([ 1.,  1.,  1.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=2)
+1.5115 	EXP 	Created Left probe example: "verb" = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Left probe example: "verb"', opacity=1.0, ori=0.0, pos=array([-0.35, -0.6 ]), rgb=array([ 1.,  1.,  1.]), text=u'"verb"', units=u'norm', win=Window(...), wrapWidth=1)
+1.5173 	EXP 	Created Right probe example: "verb" = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Right probe example: "verb"', opacity=1.0, ori=0.0, pos=array([ 0.35, -0.6 ]), rgb=array([ 1.,  1.,  1.]), text=u'"verb"', units=u'norm', win=Window(...), wrapWidth=1)
+37.4397 	DATA 	Keypress: space
+37.4399 	INFO 	Finished instructions
+37.4501 	EXP 	Created Waiting = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Waiting', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), rgb=array([ 1.,  1.,  1.]), text=u'Waiting for scanner...', units=u'norm', win=Window(...), wrapWidth=1)
+37.4848 	INFO 	Serial device detected
+0.0000 	INFO 	Got first scanner trigger! Resetting clocks
+0.0060 	EXP 	Created Fixation = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Fixation', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), rgb=array([ 1.,  1.,  1.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+0.1709 	EXP 	Created hugging_kissing_129_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/hugging_kissing_129_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='hugging_kissing_129_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+0.2047 	EXP 	hugging_kissing_129_final.mp4: movie = 'stimuli/hugging_kissing_129_final.mp4'
+0.2047 	EXP 	hugging_kissing_129_final.mp4: autoLog = True
+0.8907 	INFO 	Scanner trigger received
+1.9041 	INFO 	Scanner trigger received
+2.8849 	INFO 	Scanner trigger received
+3.8983 	INFO 	Scanner trigger received
+4.9118 	INFO 	Scanner trigger received
+5.6835 	EXP 	Set hugging_kissing_129_final.mp4 playing
+5.6838 	WARNING 	MovieStim2 dropping video frame index: 2
+5.6930 	WARNING 	MovieStim2 dropping video frame index: 3
+5.8852 	INFO 	Scanner trigger received
+6.8986 	INFO 	Scanner trigger received
+7.8958 	INFO 	Scanner trigger received
+8.2138 	EXP 	Created dancing_70_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/dancing_70_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='dancing_70_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  540.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+8.2464 	EXP 	dancing_70_final.mp4: movie = 'stimuli/dancing_70_final.mp4'
+8.2464 	EXP 	dancing_70_final.mp4: autoLog = True
+8.9003 	INFO 	Scanner trigger received
+9.9138 	INFO 	Scanner trigger received
+10.2417 	EXP 	Set dancing_70_final.mp4 playing
+10.2421 	WARNING 	MovieStim2 dropping video frame index: 2
+10.8871 	INFO 	Scanner trigger received
+11.8102 	WARNING 	MovieStim2 dropping video frame index: 49
+11.8947 	INFO 	Scanner trigger received
+12.7844 	EXP 	Created dancing_67_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/dancing_67_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='dancing_67_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+12.8233 	EXP 	dancing_67_final.mp4: movie = 'stimuli/dancing_67_final.mp4'
+12.8233 	EXP 	dancing_67_final.mp4: autoLog = True
+12.8887 	INFO 	Scanner trigger received
+13.9031 	INFO 	Scanner trigger received
+14.9157 	INFO 	Scanner trigger received
+14.9679 	EXP 	Set dancing_67_final.mp4 playing
+14.9683 	WARNING 	MovieStim2 dropping video frame index: 2
+15.0140 	WARNING 	MovieStim2 dropping video frame index: 4
+15.9055 	INFO 	Scanner trigger received
+16.9032 	INFO 	Scanner trigger received
+17.4944 	EXP 	Created dancing_63_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/dancing_63_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='dancing_63_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+17.5311 	EXP 	dancing_63_final.mp4: movie = 'stimuli/dancing_63_final.mp4'
+17.5311 	EXP 	dancing_63_final.mp4: autoLog = True
+17.8907 	INFO 	Scanner trigger received
+18.9042 	INFO 	Scanner trigger received
+19.8850 	INFO 	Scanner trigger received
+20.1660 	EXP 	Set dancing_63_final.mp4 playing
+20.1664 	WARNING 	MovieStim2 dropping video frame index: 2
+20.2121 	WARNING 	MovieStim2 dropping video frame index: 4
+20.7842 	WARNING 	MovieStim2 dropping video frame index: 21
+20.9072 	INFO 	Scanner trigger received
+21.9047 	INFO 	Scanner trigger received
+22.7074 	EXP 	Created eating_90_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/eating_90_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='eating_90_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+22.7455 	EXP 	eating_90_final.mp4: movie = 'stimuli/eating_90_final.mp4'
+22.7455 	EXP 	eating_90_final.mp4: autoLog = True
+22.9091 	INFO 	Scanner trigger received
+23.8898 	INFO 	Scanner trigger received
+24.6511 	WARNING 	MovieStim2 dropping video frame index: 1
+24.6616 	WARNING 	MovieStim2 dropping video frame index: 2
+24.7306 	EXP 	Set eating_90_final.mp4 playing
+24.7309 	WARNING 	MovieStim2 dropping video frame index: 4
+24.7457 	WARNING 	MovieStim2 dropping video frame index: 5
+24.7534 	WARNING 	MovieStim2 dropping video frame index: 6
+24.8236 	WARNING 	MovieStim2 dropping video frame index: 8
+24.8871 	WARNING 	MovieStim2 dropping video frame index: 10
+24.9229 	INFO 	Scanner trigger received
+25.0016 	WARNING 	MovieStim2 dropping video frame index: 13
+25.0669 	WARNING 	MovieStim2 dropping video frame index: 15
+25.1650 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+25.9028 	INFO 	Scanner trigger received
+26.9284 	INFO 	Scanner trigger received
+27.1786 	EXP 	Created dancing_183_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/dancing_183_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='dancing_183_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+27.2080 	EXP 	dancing_183_final.mp4: movie = 'stimuli/dancing_183_final.mp4'
+27.2080 	EXP 	dancing_183_final.mp4: autoLog = True
+27.8946 	INFO 	Scanner trigger received
+28.9080 	INFO 	Scanner trigger received
+29.2545 	EXP 	Set dancing_183_final.mp4 playing
+29.2549 	WARNING 	MovieStim2 dropping video frame index: 2
+29.9057 	INFO 	Scanner trigger received
+30.9028 	INFO 	Scanner trigger received
+31.7644 	EXP 	Created cosmetics_grooming_48_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cosmetics_grooming_48_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cosmetics_grooming_48_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+31.8013 	EXP 	cosmetics_grooming_48_final.mp4: movie = 'stimuli/cosmetics_grooming_48_final.mp4'
+31.8013 	EXP 	cosmetics_grooming_48_final.mp4: autoLog = True
+31.8994 	INFO 	Scanner trigger received
+32.9129 	INFO 	Scanner trigger received
+33.8936 	INFO 	Scanner trigger received
+34.9071 	INFO 	Scanner trigger received
+34.9593 	EXP 	Set cosmetics_grooming_48_final.mp4 playing
+34.9596 	WARNING 	MovieStim2 dropping video frame index: 2
+35.0056 	WARNING 	MovieStim2 dropping video frame index: 4
+35.8972 	INFO 	Scanner trigger received
+36.8855 	INFO 	Scanner trigger received
+37.4808 	EXP 	Created exercising_99_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/exercising_99_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='exercising_99_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+37.5061 	EXP 	exercising_99_final.mp4: movie = 'stimuli/exercising_99_final.mp4'
+37.5061 	EXP 	exercising_99_final.mp4: autoLog = True
+37.8985 	INFO 	Scanner trigger received
+38.9119 	INFO 	Scanner trigger received
+39.8927 	INFO 	Scanner trigger received
+40.1737 	EXP 	Set exercising_99_final.mp4 playing
+40.1741 	WARNING 	MovieStim2 dropping video frame index: 2
+40.2199 	WARNING 	MovieStim2 dropping video frame index: 4
+40.9152 	INFO 	Scanner trigger received
+41.9125 	INFO 	Scanner trigger received
+42.6911 	EXP 	Created hugging_kissing_130_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/hugging_kissing_130_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='hugging_kissing_130_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+42.7205 	EXP 	hugging_kissing_130_final.mp4: movie = 'stimuli/hugging_kissing_130_final.mp4'
+42.7205 	EXP 	hugging_kissing_130_final.mp4: autoLog = True
+42.9167 	INFO 	Scanner trigger received
+43.8975 	INFO 	Scanner trigger received
+44.9110 	INFO 	Scanner trigger received
+45.0267 	WARNING 	MovieStim2 dropping video frame index: 1
+45.0612 	EXP 	Set hugging_kissing_130_final.mp4 playing
+45.0617 	WARNING 	MovieStim2 dropping video frame index: 3
+45.9172 	INFO 	Scanner trigger received
+46.5295 	WARNING 	MovieStim2 dropping video frame index: 47
+46.9143 	INFO 	Scanner trigger received
+47.5759 	EXP 	Created playing_instrument_151_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/playing_instrument_151_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='playing_instrument_151_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+47.6081 	EXP 	playing_instrument_151_final.mp4: movie = 'stimuli/playing_instrument_151_final.mp4'
+47.6081 	EXP 	playing_instrument_151_final.mp4: autoLog = True
+47.9023 	INFO 	Scanner trigger received
+48.9158 	INFO 	Scanner trigger received
+49.8966 	INFO 	Scanner trigger received
+50.3738 	EXP 	Set playing_instrument_151_final.mp4 playing
+50.3741 	WARNING 	MovieStim2 dropping video frame index: 2
+50.8865 	INFO 	Scanner trigger received
+51.9165 	INFO 	Scanner trigger received
+52.8931 	EXP 	Created cooking_40_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cooking_40_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cooking_40_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+52.9206 	EXP 	cooking_40_final.mp4: movie = 'stimuli/cooking_40_final.mp4'
+52.9206 	EXP 	cooking_40_final.mp4: autoLog = True
+52.9206 	INFO 	Scanner trigger received
+53.9013 	INFO 	Scanner trigger received
+54.8689 	EXP 	Set cooking_40_final.mp4 playing
+54.8693 	WARNING 	MovieStim2 dropping video frame index: 2
+54.8872 	INFO 	Scanner trigger received
+55.8889 	INFO 	Scanner trigger received
+56.3536 	WARNING 	MovieStim2 dropping video frame index: 47
+56.8853 	INFO 	Scanner trigger received
+57.3706 	EXP 	Created eating_181_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/eating_181_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='eating_181_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+57.3994 	EXP 	eating_181_final.mp4: movie = 'stimuli/eating_181_final.mp4'
+57.3994 	EXP 	eating_181_final.mp4: autoLog = True
+57.8898 	INFO 	Scanner trigger received
+58.9033 	INFO 	Scanner trigger received
+59.9168 	INFO 	Scanner trigger received
+60.1651 	EXP 	Set eating_181_final.mp4 playing
+60.1655 	WARNING 	MovieStim2 dropping video frame index: 2
+60.8847 	INFO 	Scanner trigger received
+61.9039 	INFO 	Scanner trigger received
+62.6998 	EXP 	Created using_tools_169_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/using_tools_169_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='using_tools_169_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+62.7283 	EXP 	using_tools_169_final.mp4: movie = 'stimuli/using_tools_169_final.mp4'
+62.7283 	EXP 	using_tools_169_final.mp4: autoLog = True
+62.8918 	INFO 	Scanner trigger received
+63.9052 	INFO 	Scanner trigger received
+64.8861 	INFO 	Scanner trigger received
+65.8995 	INFO 	Scanner trigger received
+66.4616 	WARNING 	MovieStim2 dropping video frame index: 1
+66.5075 	EXP 	Set using_tools_169_final.mp4 playing
+66.5078 	WARNING 	MovieStim2 dropping video frame index: 3
+66.5152 	WARNING 	MovieStim2 dropping video frame index: 4
+66.9062 	INFO 	Scanner trigger received
+67.8866 	INFO 	Scanner trigger received
+68.1228 	WARNING 	MovieStim2 dropping video frame index: 52
+68.3843 	WARNING 	MovieStim2 dropping video frame index: 60
+68.9165 	INFO 	Scanner trigger received
+69.8879 	INFO 	Scanner trigger received
+70.9014 	INFO 	Scanner trigger received
+71.9149 	INFO 	Scanner trigger received
+72.8956 	INFO 	Scanner trigger received
+73.6081 	EXP 	Created using_tools_181_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/using_tools_181_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='using_tools_181_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+73.6476 	EXP 	using_tools_181_final.mp4: movie = 'stimuli/using_tools_181_final.mp4'
+73.6476 	EXP 	using_tools_181_final.mp4: autoLog = True
+73.9091 	INFO 	Scanner trigger received
+74.8899 	INFO 	Scanner trigger received
+75.6473 	WARNING 	MovieStim2 dropping video frame index: 1
+75.6941 	EXP 	Set using_tools_181_final.mp4 playing
+75.6944 	WARNING 	MovieStim2 dropping video frame index: 3
+75.6988 	WARNING 	MovieStim2 dropping video frame index: 4
+75.8984 	INFO 	Scanner trigger received
+75.9362 	WARNING 	MovieStim2 dropping video frame index: 11
+76.8936 	INFO 	Scanner trigger received
+77.9067 	INFO 	Scanner trigger received
+78.2100 	EXP 	Created assembly_line_9_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/assembly_line_9_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='assembly_line_9_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+78.2408 	EXP 	assembly_line_9_final.mp4: movie = 'stimuli/assembly_line_9_final.mp4'
+78.2408 	EXP 	assembly_line_9_final.mp4: autoLog = True
+78.8947 	INFO 	Scanner trigger received
+79.9082 	INFO 	Scanner trigger received
+80.5808 	WARNING 	MovieStim2 dropping video frame index: 1
+80.6509 	EXP 	Set assembly_line_9_final.mp4 playing
+80.6512 	WARNING 	MovieStim2 dropping video frame index: 3
+80.6809 	WARNING 	MovieStim2 dropping video frame index: 4
+80.7421 	WARNING 	MovieStim2 dropping video frame index: 6
+80.8565 	WARNING 	MovieStim2 dropping video frame index: 9
+80.8942 	INFO 	Scanner trigger received
+81.0199 	WARNING 	MovieStim2 dropping video frame index: 13
+81.1344 	WARNING 	MovieStim2 dropping video frame index: 16
+81.2324 	WARNING 	MovieStim2 dropping video frame index: 18
+81.2978 	WARNING 	MovieStim2 dropping video frame index: 20
+81.4613 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+81.9072 	INFO 	Scanner trigger received
+82.9031 	INFO 	Scanner trigger received
+83.1160 	EXP 	Created exercising_111_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/exercising_111_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='exercising_111_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+83.1446 	EXP 	exercising_111_final.mp4: movie = 'stimuli/exercising_111_final.mp4'
+83.1446 	EXP 	exercising_111_final.mp4: autoLog = True
+83.8966 	INFO 	Scanner trigger received
+84.9101 	INFO 	Scanner trigger received
+85.2565 	EXP 	Set exercising_111_final.mp4 playing
+85.2568 	WARNING 	MovieStim2 dropping video frame index: 2
+85.9000 	INFO 	Scanner trigger received
+86.8969 	INFO 	Scanner trigger received
+87.7981 	EXP 	Created cosmetics_grooming_56_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cosmetics_grooming_56_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cosmetics_grooming_56_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+87.8360 	EXP 	cosmetics_grooming_56_final.mp4: movie = 'stimuli/cosmetics_grooming_56_final.mp4'
+87.8360 	EXP 	cosmetics_grooming_56_final.mp4: autoLog = True
+87.9014 	INFO 	Scanner trigger received
+88.9149 	INFO 	Scanner trigger received
+89.8748 	WARNING 	MovieStim2 dropping video frame index: 1
+89.9355 	EXP 	Set cosmetics_grooming_56_final.mp4 playing
+89.9358 	WARNING 	MovieStim2 dropping video frame index: 3
+89.9544 	WARNING 	MovieStim2 dropping video frame index: 4
+89.9554 	INFO 	Scanner trigger received
+90.0285 	WARNING 	MovieStim2 dropping video frame index: 6
+90.1575 	WARNING 	MovieStim2 dropping video frame index: 9
+90.2718 	WARNING 	MovieStim2 dropping video frame index: 12
+90.3863 	WARNING 	MovieStim2 dropping video frame index: 15
+90.4710 	WARNING 	MovieStim2 dropping video frame index: 17
+90.6314 	WARNING 	MovieStim2 dropping video frame index: 21
+90.7459 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+90.9151 	INFO 	Scanner trigger received
+91.9236 	INFO 	Scanner trigger received
+92.4137 	EXP 	Created arts_crafts_7_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/arts_crafts_7_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='arts_crafts_7_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+92.4456 	EXP 	arts_crafts_7_final.mp4: movie = 'stimuli/arts_crafts_7_final.mp4'
+92.4456 	EXP 	arts_crafts_7_final.mp4: autoLog = True
+92.9033 	INFO 	Scanner trigger received
+93.9168 	INFO 	Scanner trigger received
+94.8976 	INFO 	Scanner trigger received
+95.9110 	INFO 	Scanner trigger received
+96.3556 	EXP 	Set arts_crafts_7_final.mp4 playing
+96.3559 	WARNING 	MovieStim2 dropping video frame index: 2
+96.4017 	WARNING 	MovieStim2 dropping video frame index: 4
+96.9009 	INFO 	Scanner trigger received
+97.8981 	INFO 	Scanner trigger received
+98.4776 	WARNING 	MovieStim2 dropping video frame index: 66
+98.8909 	EXP 	Created conversation_33_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/conversation_33_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='conversation_33_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+98.9187 	EXP 	conversation_33_final.mp4: movie = 'stimuli/conversation_33_final.mp4'
+98.9187 	EXP 	conversation_33_final.mp4: autoLog = True
+98.9188 	INFO 	Scanner trigger received
+99.8995 	INFO 	Scanner trigger received
+100.8661 	WARNING 	MovieStim2 dropping video frame index: 1
+100.9365 	EXP 	Set conversation_33_final.mp4 playing
+100.9368 	WARNING 	MovieStim2 dropping video frame index: 3
+100.9527 	WARNING 	MovieStim2 dropping video frame index: 4
+100.9617 	INFO 	Scanner trigger received
+101.1094 	WARNING 	MovieStim2 dropping video frame index: 8
+101.2402 	WARNING 	MovieStim2 dropping video frame index: 11
+101.4036 	WARNING 	MovieStim2 dropping video frame index: 15
+101.5671 	WARNING 	MovieStim2 dropping video frame index: 19
+101.6979 	WARNING 	MovieStim2 dropping video frame index: 22
+101.8613 	WARNING 	MovieStim2 dropping video frame index: 26
+101.9023 	INFO 	Scanner trigger received
+102.0738 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+102.9062 	INFO 	Scanner trigger received
+103.8880 	INFO 	Scanner trigger received
+104.9015 	INFO 	Scanner trigger received
+105.9149 	INFO 	Scanner trigger received
+106.8957 	INFO 	Scanner trigger received
+107.1313 	EXP 	Created Left probe: "chat" = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Left probe: "chat"', opacity=1.0, ori=0.0, pos=array([-0.35,  0.  ]), rgb=array([ 1.,  1.,  1.]), text=u'"chat"', units=u'norm', win=Window(...), wrapWidth=1)
+107.1376 	EXP 	Created Right probe: "wield" = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Right probe: "wield"', opacity=1.0, ori=0.0, pos=array([ 0.35,  0.  ]), rgb=array([ 1.,  1.,  1.]), text=u'"wield"', units=u'norm', win=Window(...), wrapWidth=1)
+107.8928 	INFO 	Scanner trigger received
+108.9062 	INFO 	Scanner trigger received
+109.6828 	EXP 	Created gardening_123_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/gardening_123_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='gardening_123_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+109.7235 	EXP 	gardening_123_final.mp4: movie = 'stimuli/gardening_123_final.mp4'
+109.7235 	EXP 	gardening_123_final.mp4: autoLog = True
+109.8870 	INFO 	Scanner trigger received
+110.9005 	INFO 	Scanner trigger received
+111.6387 	WARNING 	MovieStim2 dropping video frame index: 1
+111.6883 	EXP 	Set gardening_123_final.mp4 playing
+111.6886 	WARNING 	MovieStim2 dropping video frame index: 3
+111.7000 	WARNING 	MovieStim2 dropping video frame index: 4
+111.8899 	INFO 	Scanner trigger received
+112.1921 	WARNING 	MovieStim2 dropping video frame index: 19
+112.5027 	WARNING 	MovieStim2 dropping video frame index: 28
+112.8874 	INFO 	Scanner trigger received
+113.4344 	WARNING 	MovieStim2 dropping video frame index: 56
+113.6960 	WARNING 	MovieStim2 dropping video frame index: 64
+113.8859 	INFO 	Scanner trigger received
+114.1046 	WARNING 	MovieStim2 dropping video frame index: 76
+114.1817 	EXP 	Created teaching_159_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/teaching_159_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='teaching_159_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+114.2187 	EXP 	teaching_159_final.mp4: movie = 'stimuli/teaching_159_final.mp4'
+114.2187 	EXP 	teaching_159_final.mp4: autoLog = True
+114.9053 	INFO 	Scanner trigger received
+115.8860 	INFO 	Scanner trigger received
+116.8995 	INFO 	Scanner trigger received
+117.1969 	EXP 	Set teaching_159_final.mp4 playing
+117.1973 	WARNING 	MovieStim2 dropping video frame index: 2
+117.9223 	INFO 	Scanner trigger received
+118.9107 	INFO 	Scanner trigger received
+119.7049 	EXP 	Created teaching_154_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/teaching_154_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='teaching_154_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+119.7437 	EXP 	teaching_154_final.mp4: movie = 'stimuli/teaching_154_final.mp4'
+119.7437 	EXP 	teaching_154_final.mp4: autoLog = True
+119.9072 	INFO 	Scanner trigger received
+120.8880 	INFO 	Scanner trigger received
+121.9021 	INFO 	Scanner trigger received
+121.9537 	EXP 	Set teaching_154_final.mp4 playing
+121.9540 	WARNING 	MovieStim2 dropping video frame index: 2
+121.9998 	WARNING 	MovieStim2 dropping video frame index: 4
+122.8926 	INFO 	Scanner trigger received
+123.0296 	WARNING 	MovieStim2 dropping video frame index: 35
+123.8883 	INFO 	Scanner trigger received
+124.2719 	WARNING 	MovieStim2 dropping video frame index: 72
+124.4839 	EXP 	Created hugging_kissing_125_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/hugging_kissing_125_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='hugging_kissing_125_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+124.5168 	EXP 	hugging_kissing_125_final.mp4: movie = 'stimuli/hugging_kissing_125_final.mp4'
+124.5168 	EXP 	hugging_kissing_125_final.mp4: autoLog = True
+124.9092 	INFO 	Scanner trigger received
+125.8899 	INFO 	Scanner trigger received
+126.9034 	INFO 	Scanner trigger received
+126.9556 	EXP 	Set hugging_kissing_125_final.mp4 playing
+126.9559 	WARNING 	MovieStim2 dropping video frame index: 2
+127.0018 	WARNING 	MovieStim2 dropping video frame index: 4
+127.5738 	WARNING 	MovieStim2 dropping video frame index: 21
+127.8952 	INFO 	Scanner trigger received
+128.4606 	WARNING 	MovieStim2 dropping video frame index: 48
+128.8907 	INFO 	Scanner trigger received
+129.5257 	EXP 	Created exercising_93_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/exercising_93_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='exercising_93_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+129.5514 	EXP 	exercising_93_final.mp4: movie = 'stimuli/exercising_93_final.mp4'
+129.5514 	EXP 	exercising_93_final.mp4: autoLog = True
+129.9111 	INFO 	Scanner trigger received
+130.8918 	INFO 	Scanner trigger received
+131.8726 	WARNING 	MovieStim2 dropping video frame index: 1
+131.8932 	WARNING 	MovieStim2 dropping video frame index: 2
+131.9615 	EXP 	Set exercising_93_final.mp4 playing
+131.9619 	WARNING 	MovieStim2 dropping video frame index: 4
+131.9906 	WARNING 	MovieStim2 dropping video frame index: 5
+132.0149 	INFO 	Scanner trigger received
+132.0527 	WARNING 	MovieStim2 dropping video frame index: 7
+132.0859 	WARNING 	MovieStim2 dropping video frame index: 8
+132.1701 	WARNING 	MovieStim2 dropping video frame index: 10
+132.2489 	WARNING 	MovieStim2 dropping video frame index: 12
+132.3306 	WARNING 	MovieStim2 dropping video frame index: 14
+132.4451 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+132.9295 	INFO 	Scanner trigger received
+133.9297 	INFO 	Scanner trigger received
+134.3857 	EXP 	Created using_tools_172_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/using_tools_172_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='using_tools_172_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+134.4226 	EXP 	using_tools_172_final.mp4: movie = 'stimuli/using_tools_172_final.mp4'
+134.4226 	EXP 	using_tools_172_final.mp4: autoLog = True
+134.9130 	INFO 	Scanner trigger received
+135.8938 	INFO 	Scanner trigger received
+136.3447 	WARNING 	MovieStim2 dropping video frame index: 1
+136.3873 	EXP 	Set using_tools_172_final.mp4 playing
+136.3876 	WARNING 	MovieStim2 dropping video frame index: 3
+136.4334 	WARNING 	MovieStim2 dropping video frame index: 5
+136.6787 	WARNING 	MovieStim2 dropping video frame index: 12
+136.9001 	INFO 	Scanner trigger received
+137.4469 	WARNING 	MovieStim2 dropping video frame index: 35
+137.8975 	INFO 	Scanner trigger received
+138.9120 	EXP 	Created gardening_117_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/gardening_117_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='gardening_117_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+138.9533 	EXP 	gardening_117_final.mp4: movie = 'stimuli/gardening_117_final.mp4'
+138.9533 	EXP 	gardening_117_final.mp4: autoLog = True
+138.9534 	INFO 	Scanner trigger received
+139.8986 	INFO 	Scanner trigger received
+140.9121 	INFO 	Scanner trigger received
+140.9721 	WARNING 	MovieStim2 dropping video frame index: 1
+141.0336 	EXP 	Set gardening_117_final.mp4 playing
+141.0339 	WARNING 	MovieStim2 dropping video frame index: 3
+141.1412 	WARNING 	MovieStim2 dropping video frame index: 6
+141.3047 	WARNING 	MovieStim2 dropping video frame index: 10
+141.4681 	WARNING 	MovieStim2 dropping video frame index: 14
+141.5525 	WARNING 	MovieStim2 dropping video frame index: 16
+141.6806 	WARNING 	MovieStim2 dropping video frame index: 19
+141.8440 	WARNING 	MovieStim2 dropping video frame index: 23
+141.8877 	INFO 	Scanner trigger received
+142.0565 	WARNING 	MovieStim2 dropping video frame index: 28
+142.2200 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+142.9269 	INFO 	Scanner trigger received
+143.5068 	EXP 	Created playing_instrument_143_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/playing_instrument_143_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='playing_instrument_143_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+143.5438 	EXP 	playing_instrument_143_final.mp4: movie = 'stimuli/playing_instrument_143_final.mp4'
+143.5438 	EXP 	playing_instrument_143_final.mp4: autoLog = True
+143.9034 	INFO 	Scanner trigger received
+144.9169 	INFO 	Scanner trigger received
+145.8977 	INFO 	Scanner trigger received
+146.9111 	INFO 	Scanner trigger received
+147.8919 	INFO 	Scanner trigger received
+148.3414 	WARNING 	MovieStim2 dropping video frame index: 1
+148.3855 	EXP 	Set playing_instrument_143_final.mp4 playing
+148.3858 	WARNING 	MovieStim2 dropping video frame index: 3
+148.3963 	WARNING 	MovieStim2 dropping video frame index: 4
+148.8981 	INFO 	Scanner trigger received
+149.8955 	INFO 	Scanner trigger received
+150.9034 	EXP 	Created exercising_104_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/exercising_104_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='exercising_104_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+150.9322 	EXP 	exercising_104_final.mp4: movie = 'stimuli/exercising_104_final.mp4'
+150.9322 	EXP 	exercising_104_final.mp4: autoLog = True
+150.9323 	INFO 	Scanner trigger received
+151.9131 	INFO 	Scanner trigger received
+152.8941 	INFO 	Scanner trigger received
+153.3711 	WARNING 	MovieStim2 dropping video frame index: 1
+153.3768 	WARNING 	MovieStim2 dropping video frame index: 2
+153.4568 	EXP 	Set exercising_104_final.mp4 playing
+153.4571 	WARNING 	MovieStim2 dropping video frame index: 4
+153.4757 	WARNING 	MovieStim2 dropping video frame index: 5
+153.5316 	WARNING 	MovieStim2 dropping video frame index: 7
+153.5970 	WARNING 	MovieStim2 dropping video frame index: 9
+153.6623 	WARNING 	MovieStim2 dropping video frame index: 11
+153.7277 	WARNING 	MovieStim2 dropping video frame index: 13
+153.7931 	WARNING 	MovieStim2 dropping video frame index: 15
+153.8585 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+153.8957 	INFO 	Scanner trigger received
+154.9245 	INFO 	Scanner trigger received
+155.9015 	INFO 	Scanner trigger received
+155.9332 	EXP 	Created dancing_60_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/dancing_60_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='dancing_60_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+155.9669 	EXP 	dancing_60_final.mp4: movie = 'stimuli/dancing_60_final.mp4'
+155.9669 	EXP 	dancing_60_final.mp4: autoLog = True
+156.9150 	INFO 	Scanner trigger received
+157.8958 	INFO 	Scanner trigger received
+158.9092 	INFO 	Scanner trigger received
+159.4646 	WARNING 	MovieStim2 dropping video frame index: 1
+159.5172 	EXP 	Set dancing_60_final.mp4 playing
+159.5176 	WARNING 	MovieStim2 dropping video frame index: 3
+159.8903 	INFO 	Scanner trigger received
+160.8964 	INFO 	Scanner trigger received
+161.8953 	INFO 	Scanner trigger received
+162.0261 	EXP 	Created cooking_37_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cooking_37_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cooking_37_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+162.0640 	EXP 	cooking_37_final.mp4: movie = 'stimuli/cooking_37_final.mp4'
+162.0640 	EXP 	cooking_37_final.mp4: autoLog = True
+162.9141 	INFO 	Scanner trigger received
+163.8949 	INFO 	Scanner trigger received
+164.2739 	EXP 	Set cooking_37_final.mp4 playing
+164.2743 	WARNING 	MovieStim2 dropping video frame index: 2
+164.3200 	WARNING 	MovieStim2 dropping video frame index: 4
+164.8858 	INFO 	Scanner trigger received
+165.9143 	INFO 	Scanner trigger received
+166.8081 	EXP 	Created cosmetics_grooming_50_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cosmetics_grooming_50_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cosmetics_grooming_50_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+166.8370 	EXP 	cosmetics_grooming_50_final.mp4: movie = 'stimuli/cosmetics_grooming_50_final.mp4'
+166.8370 	EXP 	cosmetics_grooming_50_final.mp4: autoLog = True
+166.9025 	INFO 	Scanner trigger received
+167.9161 	INFO 	Scanner trigger received
+168.7464 	WARNING 	MovieStim2 dropping video frame index: 1
+168.8058 	EXP 	Set cosmetics_grooming_50_final.mp4 playing
+168.8061 	WARNING 	MovieStim2 dropping video frame index: 3
+168.8243 	WARNING 	MovieStim2 dropping video frame index: 4
+168.9200 	INFO 	Scanner trigger received
+168.9951 	WARNING 	MovieStim2 dropping video frame index: 8
+169.1585 	WARNING 	MovieStim2 dropping video frame index: 12
+169.3710 	WARNING 	MovieStim2 dropping video frame index: 17
+169.5344 	WARNING 	MovieStim2 dropping video frame index: 21
+169.6653 	WARNING 	MovieStim2 dropping video frame index: 24
+169.8286 	WARNING 	MovieStim2 dropping video frame index: 28
+169.9146 	INFO 	Scanner trigger received
+169.9921 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+170.9296 	INFO 	Scanner trigger received
+171.2636 	EXP 	Created eating_81_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/eating_81_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='eating_81_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+171.2996 	EXP 	eating_81_final.mp4: movie = 'stimuli/eating_81_final.mp4'
+171.2996 	EXP 	eating_81_final.mp4: autoLog = True
+171.8881 	INFO 	Scanner trigger received
+172.9016 	INFO 	Scanner trigger received
+173.4769 	EXP 	Set eating_81_final.mp4 playing
+173.4772 	WARNING 	MovieStim2 dropping video frame index: 2
+173.5230 	WARNING 	MovieStim2 dropping video frame index: 4
+173.8912 	INFO 	Scanner trigger received
+174.8307 	WARNING 	MovieStim2 dropping video frame index: 43
+174.8897 	INFO 	Scanner trigger received
+175.0922 	WARNING 	MovieStim2 dropping video frame index: 51
+175.8854 	INFO 	Scanner trigger received
+176.0021 	EXP 	Created eating_73_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/eating_73_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='eating_73_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+176.0400 	EXP 	eating_73_final.mp4: movie = 'stimuli/eating_73_final.mp4'
+176.0400 	EXP 	eating_73_final.mp4: autoLog = True
+176.8900 	INFO 	Scanner trigger received
+177.9035 	INFO 	Scanner trigger received
+177.9557 	EXP 	Set eating_73_final.mp4 playing
+177.9560 	WARNING 	MovieStim2 dropping video frame index: 2
+178.0018 	WARNING 	MovieStim2 dropping video frame index: 4
+178.8935 	INFO 	Scanner trigger received
+179.3423 	WARNING 	MovieStim2 dropping video frame index: 44
+179.9065 	INFO 	Scanner trigger received
+180.5205 	EXP 	Created arts_crafts_3_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/arts_crafts_3_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='arts_crafts_3_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+180.5515 	EXP 	arts_crafts_3_final.mp4: movie = 'stimuli/arts_crafts_3_final.mp4'
+180.5515 	EXP 	arts_crafts_3_final.mp4: autoLog = True
+180.9111 	INFO 	Scanner trigger received
+181.8920 	INFO 	Scanner trigger received
+182.5688 	WARNING 	MovieStim2 dropping video frame index: 1
+182.5697 	WARNING 	MovieStim2 dropping video frame index: 2
+182.6346 	EXP 	Set arts_crafts_3_final.mp4 playing
+182.6402 	WARNING 	MovieStim2 dropping video frame index: 4
+182.6527 	WARNING 	MovieStim2 dropping video frame index: 5
+182.7095 	WARNING 	MovieStim2 dropping video frame index: 7
+182.7749 	WARNING 	MovieStim2 dropping video frame index: 9
+182.8403 	WARNING 	MovieStim2 dropping video frame index: 11
+182.9056 	WARNING 	MovieStim2 dropping video frame index: 13
+182.9448 	INFO 	Scanner trigger received
+182.9710 	WARNING 	MovieStim2 dropping video frame index: 15
+183.0365 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+183.9073 	INFO 	Scanner trigger received
+184.9146 	INFO 	Scanner trigger received
+185.1042 	EXP 	Created dancing_65_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/dancing_65_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='dancing_65_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+185.1448 	EXP 	dancing_65_final.mp4: movie = 'stimuli/dancing_65_final.mp4'
+185.1448 	EXP 	dancing_65_final.mp4: autoLog = True
+185.8967 	INFO 	Scanner trigger received
+186.9103 	INFO 	Scanner trigger received
+187.1586 	EXP 	Set dancing_65_final.mp4 playing
+187.1589 	WARNING 	MovieStim2 dropping video frame index: 2
+187.1657 	WARNING 	MovieStim2 dropping video frame index: 3
+187.8996 	INFO 	Scanner trigger received
+188.8972 	INFO 	Scanner trigger received
+189.0355 	WARNING 	MovieStim2 dropping video frame index: 59
+189.5422 	WARNING 	MovieStim2 dropping video frame index: 74
+189.6904 	EXP 	Created using_tools_164_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/using_tools_164_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='using_tools_164_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+189.7217 	EXP 	using_tools_164_final.mp4: movie = 'stimuli/using_tools_164_final.mp4'
+189.7217 	EXP 	using_tools_164_final.mp4: autoLog = True
+189.8852 	INFO 	Scanner trigger received
+190.8987 	INFO 	Scanner trigger received
+191.6702 	EXP 	Set using_tools_164_final.mp4 playing
+191.6705 	WARNING 	MovieStim2 dropping video frame index: 2
+191.8901 	INFO 	Scanner trigger received
+192.8605 	WARNING 	MovieStim2 dropping video frame index: 38
+192.9192 	INFO 	Scanner trigger received
+193.9154 	INFO 	Scanner trigger received
+194.2071 	EXP 	Created conversation_29_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/conversation_29_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='conversation_29_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+194.2332 	EXP 	conversation_29_final.mp4: movie = 'stimuli/conversation_29_final.mp4'
+194.2332 	EXP 	conversation_29_final.mp4: autoLog = True
+194.8871 	INFO 	Scanner trigger received
+195.9006 	INFO 	Scanner trigger received
+196.9141 	INFO 	Scanner trigger received
+197.5548 	EXP 	Set conversation_29_final.mp4 playing
+197.5551 	WARNING 	MovieStim2 dropping video frame index: 2
+197.6009 	WARNING 	MovieStim2 dropping video frame index: 4
+197.9039 	INFO 	Scanner trigger received
+198.4346 	WARNING 	MovieStim2 dropping video frame index: 29
+198.9010 	INFO 	Scanner trigger received
+199.6769 	WARNING 	MovieStim2 dropping video frame index: 66
+199.9002 	INFO 	Scanner trigger received
+200.0783 	EXP 	Created cosmetics_grooming_43_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cosmetics_grooming_43_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cosmetics_grooming_43_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+200.1179 	EXP 	cosmetics_grooming_43_final.mp4: movie = 'stimuli/cosmetics_grooming_43_final.mp4'
+200.1179 	EXP 	cosmetics_grooming_43_final.mp4: autoLog = True
+200.9026 	INFO 	Scanner trigger received
+201.9160 	INFO 	Scanner trigger received
+202.1644 	EXP 	Set cosmetics_grooming_43_final.mp4 playing
+202.1647 	WARNING 	MovieStim2 dropping video frame index: 2
+202.2105 	WARNING 	MovieStim2 dropping video frame index: 4
+202.9062 	INFO 	Scanner trigger received
+203.9033 	INFO 	Scanner trigger received
+204.3846 	WARNING 	MovieStim2 dropping video frame index: 69
+204.8911 	INFO 	Scanner trigger received
+205.9045 	INFO 	Scanner trigger received
+206.8852 	INFO 	Scanner trigger received
+207.8987 	INFO 	Scanner trigger received
+208.9122 	INFO 	Scanner trigger received
+209.8930 	INFO 	Scanner trigger received
+210.9064 	INFO 	Scanner trigger received
+211.8872 	INFO 	Scanner trigger received
+212.9006 	INFO 	Scanner trigger received
+213.9141 	INFO 	Scanner trigger received
+214.5007 	EXP 	Created assembly_line_12_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/assembly_line_12_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='assembly_line_12_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+214.5352 	EXP 	assembly_line_12_final.mp4: movie = 'stimuli/assembly_line_12_final.mp4'
+214.5352 	EXP 	assembly_line_12_final.mp4: autoLog = True
+214.8949 	INFO 	Scanner trigger received
+215.9083 	INFO 	Scanner trigger received
+216.8891 	INFO 	Scanner trigger received
+217.0721 	EXP 	Set assembly_line_12_final.mp4 playing
+217.0724 	WARNING 	MovieStim2 dropping video frame index: 2
+217.1183 	WARNING 	MovieStim2 dropping video frame index: 4
+217.9115 	INFO 	Scanner trigger received
+218.4913 	WARNING 	MovieStim2 dropping video frame index: 45
+218.9086 	INFO 	Scanner trigger received
+219.5999 	EXP 	Created assembly_line_13_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/assembly_line_13_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='assembly_line_13_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+219.6353 	EXP 	assembly_line_13_final.mp4: movie = 'stimuli/assembly_line_13_final.mp4'
+219.6353 	EXP 	assembly_line_13_final.mp4: autoLog = True
+219.8968 	INFO 	Scanner trigger received
+220.9103 	INFO 	Scanner trigger received
+221.8910 	INFO 	Scanner trigger received
+221.9517 	WARNING 	MovieStim2 dropping video frame index: 1
+221.9923 	EXP 	Set assembly_line_13_final.mp4 playing
+221.9926 	WARNING 	MovieStim2 dropping video frame index: 3
+222.0391 	WARNING 	MovieStim2 dropping video frame index: 5
+222.2019 	WARNING 	MovieStim2 dropping video frame index: 9
+222.2104 	WARNING 	MovieStim2 dropping video frame index: 10
+222.8067 	WARNING 	MovieStim2 dropping video frame index: 28
+222.8973 	INFO 	Scanner trigger received
+223.7385 	WARNING 	MovieStim2 dropping video frame index: 56
+223.9106 	INFO 	Scanner trigger received
+224.0490 	WARNING 	MovieStim2 dropping video frame index: 65
+224.9151 	INFO 	Scanner trigger received
+225.8960 	INFO 	Scanner trigger received
+226.4259 	EXP 	Created Left probe: "labor" = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Left probe: "labor"', opacity=1.0, ori=0.0, pos=array([-0.35,  0.  ]), rgb=array([ 1.,  1.,  1.]), text=u'"labor"', units=u'norm', win=Window(...), wrapWidth=1)
+226.4320 	EXP 	Created Right probe: "plant" = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Right probe: "plant"', opacity=1.0, ori=0.0, pos=array([ 0.35,  0.  ]), rgb=array([ 1.,  1.,  1.]), text=u'"plant"', units=u'norm', win=Window(...), wrapWidth=1)
+226.8931 	INFO 	Scanner trigger received
+227.9065 	INFO 	Scanner trigger received
+228.8872 	INFO 	Scanner trigger received
+228.9774 	EXP 	Created exercising_95_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/exercising_95_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='exercising_95_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+229.0016 	EXP 	exercising_95_final.mp4: movie = 'stimuli/exercising_95_final.mp4'
+229.0016 	EXP 	exercising_95_final.mp4: autoLog = True
+229.8844 	INFO 	Scanner trigger received
+230.8978 	INFO 	Scanner trigger received
+230.9525 	WARNING 	MovieStim2 dropping video frame index: 1
+230.9991 	EXP 	Set exercising_95_final.mp4 playing
+230.9994 	WARNING 	MovieStim2 dropping video frame index: 3
+231.0081 	WARNING 	MovieStim2 dropping video frame index: 4
+231.9041 	INFO 	Scanner trigger received
+232.1077 	WARNING 	MovieStim2 dropping video frame index: 37
+232.7779 	WARNING 	MovieStim2 dropping video frame index: 57
+232.9012 	INFO 	Scanner trigger received
+233.4834 	EXP 	Created exercising_106_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/exercising_106_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='exercising_106_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+233.5131 	EXP 	exercising_106_final.mp4: movie = 'stimuli/exercising_106_final.mp4'
+233.5131 	EXP 	exercising_106_final.mp4: autoLog = True
+233.9055 	INFO 	Scanner trigger received
+234.8863 	INFO 	Scanner trigger received
+235.8997 	INFO 	Scanner trigger received
+236.9131 	INFO 	Scanner trigger received
+237.2597 	EXP 	Set exercising_106_final.mp4 playing
+237.2600 	WARNING 	MovieStim2 dropping video frame index: 2
+237.9033 	INFO 	Scanner trigger received
+238.8917 	INFO 	Scanner trigger received
+239.7862 	EXP 	Created gardening_118_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/gardening_118_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='gardening_118_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+239.8228 	EXP 	gardening_118_final.mp4: movie = 'stimuli/gardening_118_final.mp4'
+239.8228 	EXP 	gardening_118_final.mp4: autoLog = True
+239.8883 	INFO 	Scanner trigger received
+240.9016 	INFO 	Scanner trigger received
+241.7580 	WARNING 	MovieStim2 dropping video frame index: 1
+241.8039 	EXP 	Set gardening_118_final.mp4 playing
+241.8042 	WARNING 	MovieStim2 dropping video frame index: 3
+241.8117 	WARNING 	MovieStim2 dropping video frame index: 4
+241.9087 	INFO 	Scanner trigger received
+242.9054 	INFO 	Scanner trigger received
+243.4520 	WARNING 	MovieStim2 dropping video frame index: 53
+243.7135 	WARNING 	MovieStim2 dropping video frame index: 61
+243.8860 	INFO 	Scanner trigger received
+244.3104 	EXP 	Created hugging_kissing_126_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/hugging_kissing_126_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='hugging_kissing_126_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+244.3507 	EXP 	hugging_kissing_126_final.mp4: movie = 'stimuli/hugging_kissing_126_final.mp4'
+244.3507 	EXP 	hugging_kissing_126_final.mp4: autoLog = True
+244.9065 	INFO 	Scanner trigger received
+245.8881 	INFO 	Scanner trigger received
+246.3534 	WARNING 	MovieStim2 dropping video frame index: 1
+246.4174 	EXP 	Set hugging_kissing_126_final.mp4 playing
+246.4178 	WARNING 	MovieStim2 dropping video frame index: 3
+246.4395 	WARNING 	MovieStim2 dropping video frame index: 4
+246.4423 	WARNING 	MovieStim2 dropping video frame index: 5
+246.5087 	WARNING 	MovieStim2 dropping video frame index: 7
+246.5740 	WARNING 	MovieStim2 dropping video frame index: 9
+246.6394 	WARNING 	MovieStim2 dropping video frame index: 11
+246.7067 	WARNING 	MovieStim2 dropping video frame index: 13
+246.8192 	WARNING 	MovieStim2 dropping video frame index: 16
+246.8894 	INFO 	Scanner trigger received
+246.9191 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+247.8859 	INFO 	Scanner trigger received
+248.8979 	EXP 	Created cosmetics_grooming_51_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cosmetics_grooming_51_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cosmetics_grooming_51_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+248.9276 	EXP 	cosmetics_grooming_51_final.mp4: movie = 'stimuli/cosmetics_grooming_51_final.mp4'
+248.9276 	EXP 	cosmetics_grooming_51_final.mp4: autoLog = True
+248.9277 	INFO 	Scanner trigger received
+249.9084 	INFO 	Scanner trigger received
+250.8902 	INFO 	Scanner trigger received
+251.5541 	WARNING 	MovieStim2 dropping video frame index: 1
+251.6173 	EXP 	Set cosmetics_grooming_51_final.mp4 playing
+251.6176 	WARNING 	MovieStim2 dropping video frame index: 3
+251.6904 	WARNING 	MovieStim2 dropping video frame index: 5
+251.7721 	WARNING 	MovieStim2 dropping video frame index: 7
+251.9076 	INFO 	Scanner trigger received
+251.9355 	WARNING 	MovieStim2 dropping video frame index: 11
+252.1481 	WARNING 	MovieStim2 dropping video frame index: 16
+252.3116 	WARNING 	MovieStim2 dropping video frame index: 20
+252.5241 	WARNING 	MovieStim2 dropping video frame index: 25
+252.6875 	WARNING 	MovieStim2 dropping video frame index: 29
+252.9000 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+252.9323 	INFO 	Scanner trigger received
+253.9028 	INFO 	Scanner trigger received
+254.0910 	EXP 	Created teaching_155_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/teaching_155_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='teaching_155_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+254.1257 	EXP 	teaching_155_final.mp4: movie = 'stimuli/teaching_155_final.mp4'
+254.1257 	EXP 	teaching_155_final.mp4: autoLog = True
+254.9104 	INFO 	Scanner trigger received
+255.8911 	INFO 	Scanner trigger received
+256.9046 	INFO 	Scanner trigger received
+256.9604 	EXP 	Set teaching_155_final.mp4 playing
+256.9608 	WARNING 	MovieStim2 dropping video frame index: 2
+257.5424 	WARNING 	MovieStim2 dropping video frame index: 20
+257.9118 	INFO 	Scanner trigger received
+258.6865 	WARNING 	MovieStim2 dropping video frame index: 54
+258.9079 	INFO 	Scanner trigger received
+259.5081 	EXP 	Created playing_instrument_146_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/playing_instrument_146_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='playing_instrument_146_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+259.5363 	EXP 	playing_instrument_146_final.mp4: movie = 'stimuli/playing_instrument_146_final.mp4'
+259.5363 	EXP 	playing_instrument_146_final.mp4: autoLog = True
+259.8960 	INFO 	Scanner trigger received
+260.9094 	INFO 	Scanner trigger received
+261.5842 	WARNING 	MovieStim2 dropping video frame index: 1
+261.6521 	EXP 	Set playing_instrument_146_final.mp4 playing
+261.6524 	WARNING 	MovieStim2 dropping video frame index: 3
+261.6692 	WARNING 	MovieStim2 dropping video frame index: 4
+261.7452 	WARNING 	MovieStim2 dropping video frame index: 6
+261.8741 	WARNING 	MovieStim2 dropping video frame index: 9
+261.8896 	INFO 	Scanner trigger received
+262.0048 	WARNING 	MovieStim2 dropping video frame index: 12
+262.1683 	WARNING 	MovieStim2 dropping video frame index: 16
+262.3318 	WARNING 	MovieStim2 dropping video frame index: 20
+262.4953 	WARNING 	MovieStim2 dropping video frame index: 24
+262.7077 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+262.8867 	INFO 	Scanner trigger received
+263.9230 	INFO 	Scanner trigger received
+264.1156 	EXP 	Created arts_crafts_4_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/arts_crafts_4_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='arts_crafts_4_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+264.1459 	EXP 	arts_crafts_4_final.mp4: movie = 'stimuli/arts_crafts_4_final.mp4'
+264.1459 	EXP 	arts_crafts_4_final.mp4: autoLog = True
+264.8978 	INFO 	Scanner trigger received
+265.9121 	INFO 	Scanner trigger received
+266.4495 	WARNING 	MovieStim2 dropping video frame index: 1
+266.5069 	EXP 	Set arts_crafts_4_final.mp4 playing
+266.5073 	WARNING 	MovieStim2 dropping video frame index: 3
+266.5268 	WARNING 	MovieStim2 dropping video frame index: 4
+266.6963 	WARNING 	MovieStim2 dropping video frame index: 8
+266.8596 	WARNING 	MovieStim2 dropping video frame index: 12
+266.9025 	INFO 	Scanner trigger received
+267.0722 	WARNING 	MovieStim2 dropping video frame index: 17
+267.2356 	WARNING 	MovieStim2 dropping video frame index: 21
+267.4481 	WARNING 	MovieStim2 dropping video frame index: 26
+267.6116 	WARNING 	MovieStim2 dropping video frame index: 30
+267.8240 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+267.9139 	INFO 	Scanner trigger received
+268.9114 	INFO 	Scanner trigger received
+268.9642 	EXP 	Created dancing_61_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/dancing_61_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='dancing_61_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+269.0007 	EXP 	dancing_61_final.mp4: movie = 'stimuli/dancing_61_final.mp4'
+269.0007 	EXP 	dancing_61_final.mp4: autoLog = True
+269.9162 	INFO 	Scanner trigger received
+270.8969 	INFO 	Scanner trigger received
+270.9982 	EXP 	Set dancing_61_final.mp4 playing
+270.9986 	WARNING 	MovieStim2 dropping video frame index: 2
+271.9042 	INFO 	Scanner trigger received
+272.8928 	INFO 	Scanner trigger received
+273.1856 	WARNING 	MovieStim2 dropping video frame index: 57
+273.5227 	EXP 	Created eating_76_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/eating_76_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='eating_76_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+273.5613 	EXP 	eating_76_final.mp4: movie = 'stimuli/eating_76_final.mp4'
+273.5613 	EXP 	eating_76_final.mp4: autoLog = True
+273.8884 	INFO 	Scanner trigger received
+274.9017 	INFO 	Scanner trigger received
+275.9152 	INFO 	Scanner trigger received
+275.9675 	EXP 	Set eating_76_final.mp4 playing
+275.9678 	WARNING 	MovieStim2 dropping video frame index: 2
+276.0135 	WARNING 	MovieStim2 dropping video frame index: 4
+276.3895 	WARNING 	MovieStim2 dropping video frame index: 15
+276.9049 	INFO 	Scanner trigger received
+277.9181 	INFO 	Scanner trigger received
+278.4986 	EXP 	Created conversation_30_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/conversation_30_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='conversation_30_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+278.5306 	EXP 	conversation_30_final.mp4: movie = 'stimuli/conversation_30_final.mp4'
+278.5306 	EXP 	conversation_30_final.mp4: autoLog = True
+278.8902 	INFO 	Scanner trigger received
+279.9036 	INFO 	Scanner trigger received
+280.5771 	EXP 	Set conversation_30_final.mp4 playing
+280.5774 	WARNING 	MovieStim2 dropping video frame index: 2
+280.6231 	WARNING 	MovieStim2 dropping video frame index: 4
+280.8942 	INFO 	Scanner trigger received
+281.8001 	WARNING 	MovieStim2 dropping video frame index: 39
+281.8907 	INFO 	Scanner trigger received
+282.2578 	WARNING 	MovieStim2 dropping video frame index: 53
+282.5684 	WARNING 	MovieStim2 dropping video frame index: 62
+282.8891 	INFO 	Scanner trigger received
+283.1127 	EXP 	Created eating_85_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/eating_85_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='eating_85_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+283.1402 	EXP 	eating_85_final.mp4: movie = 'stimuli/eating_85_final.mp4'
+283.1402 	EXP 	eating_85_final.mp4: autoLog = True
+283.8921 	INFO 	Scanner trigger received
+284.9056 	INFO 	Scanner trigger received
+285.8863 	INFO 	Scanner trigger received
+286.8998 	INFO 	Scanner trigger received
+287.2790 	EXP 	Set eating_85_final.mp4 playing
+287.2794 	WARNING 	MovieStim2 dropping video frame index: 2
+287.8897 	INFO 	Scanner trigger received
+288.8914 	INFO 	Scanner trigger received
+289.3358 	WARNING 	MovieStim2 dropping video frame index: 64
+289.8912 	INFO 	Scanner trigger received
+290.9047 	INFO 	Scanner trigger received
+291.8854 	INFO 	Scanner trigger received
+292.8989 	INFO 	Scanner trigger received
+293.9123 	INFO 	Scanner trigger received
+294.6911 	EXP 	Created dancing_68_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/dancing_68_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='dancing_68_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+294.7296 	EXP 	dancing_68_final.mp4: movie = 'stimuli/dancing_68_final.mp4'
+294.7296 	EXP 	dancing_68_final.mp4: autoLog = True
+294.8932 	INFO 	Scanner trigger received
+295.9065 	INFO 	Scanner trigger received
+296.6781 	EXP 	Set dancing_68_final.mp4 playing
+296.6784 	WARNING 	MovieStim2 dropping video frame index: 2
+296.6893 	WARNING 	MovieStim2 dropping video frame index: 3
+296.9043 	INFO 	Scanner trigger received
+297.8933 	INFO 	Scanner trigger received
+298.8915 	INFO 	Scanner trigger received
+299.2322 	EXP 	Created cooking_38_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cooking_38_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cooking_38_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+299.2575 	EXP 	cooking_38_final.mp4: movie = 'stimuli/cooking_38_final.mp4'
+299.2575 	EXP 	cooking_38_final.mp4: autoLog = True
+299.9114 	INFO 	Scanner trigger received
+300.8922 	INFO 	Scanner trigger received
+301.9056 	INFO 	Scanner trigger received
+302.7752 	EXP 	Set cooking_38_final.mp4 playing
+302.7754 	WARNING 	MovieStim2 dropping video frame index: 2
+302.8212 	WARNING 	MovieStim2 dropping video frame index: 4
+302.9033 	INFO 	Scanner trigger received
+303.8935 	INFO 	Scanner trigger received
+304.8896 	INFO 	Scanner trigger received
+305.3016 	EXP 	Created using_tools_173_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/using_tools_173_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='using_tools_173_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+305.3383 	EXP 	using_tools_173_final.mp4: movie = 'stimuli/using_tools_173_final.mp4'
+305.3383 	EXP 	using_tools_173_final.mp4: autoLog = True
+305.8941 	INFO 	Scanner trigger received
+306.9076 	INFO 	Scanner trigger received
+307.3690 	EXP 	Set using_tools_173_final.mp4 playing
+307.3693 	WARNING 	MovieStim2 dropping video frame index: 2
+307.8889 	INFO 	Scanner trigger received
+308.8860 	INFO 	Scanner trigger received
+309.8748 	EXP 	Created cosmetics_grooming_44_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cosmetics_grooming_44_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cosmetics_grooming_44_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+309.9152 	EXP 	cosmetics_grooming_44_final.mp4: movie = 'stimuli/cosmetics_grooming_44_final.mp4'
+309.9152 	EXP 	cosmetics_grooming_44_final.mp4: autoLog = True
+309.9153 	INFO 	Scanner trigger received
+310.8961 	INFO 	Scanner trigger received
+311.8636 	EXP 	Set cosmetics_grooming_44_final.mp4 playing
+311.8639 	WARNING 	MovieStim2 dropping video frame index: 2
+311.9097 	WARNING 	MovieStim2 dropping video frame index: 4
+311.9177 	INFO 	Scanner trigger received
+312.8994 	INFO 	Scanner trigger received
+313.9150 	INFO 	Scanner trigger received
+313.9693 	WARNING 	MovieStim2 dropping video frame index: 65
+314.0192 	WARNING 	MovieStim2 dropping video frame index: 67
+314.3928 	EXP 	Created using_tools_166_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/using_tools_166_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='using_tools_166_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+314.4268 	EXP 	using_tools_166_final.mp4: movie = 'stimuli/using_tools_166_final.mp4'
+314.4268 	EXP 	using_tools_166_final.mp4: autoLog = True
+314.8845 	INFO 	Scanner trigger received
+315.8980 	INFO 	Scanner trigger received
+316.3752 	EXP 	Set using_tools_166_final.mp4 playing
+316.3755 	WARNING 	MovieStim2 dropping video frame index: 2
+316.8954 	WARNING 	MovieStim2 dropping video frame index: 18
+316.9012 	INFO 	Scanner trigger received
+317.8859 	INFO 	Scanner trigger received
+318.6607 	WARNING 	MovieStim2 dropping video frame index: 71
+318.9039 	EXP 	Created using_tools_162_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/using_tools_162_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='using_tools_162_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+318.9383 	EXP 	using_tools_162_final.mp4: movie = 'stimuli/using_tools_162_final.mp4'
+318.9383 	EXP 	using_tools_162_final.mp4: autoLog = True
+318.9384 	INFO 	Scanner trigger received
+319.8864 	INFO 	Scanner trigger received
+320.8999 	INFO 	Scanner trigger received
+321.1810 	EXP 	Set using_tools_162_final.mp4 playing
+321.1813 	WARNING 	MovieStim2 dropping video frame index: 2
+321.6030 	WARNING 	MovieStim2 dropping video frame index: 15
+321.8901 	INFO 	Scanner trigger received
+322.0771 	WARNING 	MovieStim2 dropping video frame index: 29
+322.9042 	INFO 	Scanner trigger received
+323.9076 	INFO 	Scanner trigger received
+324.8884 	INFO 	Scanner trigger received
+325.9018 	INFO 	Scanner trigger received
+326.9161 	INFO 	Scanner trigger received
+327.8961 	INFO 	Scanner trigger received
+328.1324 	EXP 	Created Left probe: "facilitate" = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Left probe: "facilitate"', opacity=1.0, ori=0.0, pos=array([-0.35,  0.  ]), rgb=array([ 1.,  1.,  1.]), text=u'"facilitate"', units=u'norm', win=Window(...), wrapWidth=1)
+328.1389 	EXP 	Created Right probe: "prance" = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Right probe: "prance"', opacity=1.0, ori=0.0, pos=array([ 0.35,  0.  ]), rgb=array([ 1.,  1.,  1.]), text=u'"prance"', units=u'norm', win=Window(...), wrapWidth=1)
+328.8931 	INFO 	Scanner trigger received
+329.9067 	INFO 	Scanner trigger received
+330.6874 	EXP 	Created hugging_kissing_124_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/hugging_kissing_124_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='hugging_kissing_124_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+330.7239 	EXP 	hugging_kissing_124_final.mp4: movie = 'stimuli/hugging_kissing_124_final.mp4'
+330.7239 	EXP 	hugging_kissing_124_final.mp4: autoLog = True
+330.8874 	INFO 	Scanner trigger received
+331.9009 	INFO 	Scanner trigger received
+332.6723 	EXP 	Set hugging_kissing_124_final.mp4 playing
+332.6726 	WARNING 	MovieStim2 dropping video frame index: 2
+332.7185 	WARNING 	MovieStim2 dropping video frame index: 4
+332.9071 	INFO 	Scanner trigger received
+333.9043 	INFO 	Scanner trigger received
+334.0915 	WARNING 	MovieStim2 dropping video frame index: 45
+334.9011 	INFO 	Scanner trigger received
+335.2028 	EXP 	Created using_tools_170_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/using_tools_170_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='using_tools_170_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+335.2355 	EXP 	using_tools_170_final.mp4: movie = 'stimuli/using_tools_170_final.mp4'
+335.2355 	EXP 	using_tools_170_final.mp4: autoLog = True
+335.8893 	INFO 	Scanner trigger received
+336.9028 	INFO 	Scanner trigger received
+337.2767 	WARNING 	MovieStim2 dropping video frame index: 1
+337.3350 	EXP 	Set using_tools_170_final.mp4 playing
+337.3353 	WARNING 	MovieStim2 dropping video frame index: 3
+337.3559 	WARNING 	MovieStim2 dropping video frame index: 4
+337.4753 	WARNING 	MovieStim2 dropping video frame index: 7
+337.6877 	WARNING 	MovieStim2 dropping video frame index: 12
+337.8512 	WARNING 	MovieStim2 dropping video frame index: 16
+337.8968 	INFO 	Scanner trigger received
+337.9347 	WARNING 	MovieStim2 dropping video frame index: 18
+338.1454 	WARNING 	MovieStim2 dropping video frame index: 23
+338.3088 	WARNING 	MovieStim2 dropping video frame index: 27
+338.5213 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+338.9318 	INFO 	Scanner trigger received
+339.7886 	EXP 	Created teaching_152_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/teaching_152_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='teaching_152_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+339.8287 	EXP 	teaching_152_final.mp4: movie = 'stimuli/teaching_152_final.mp4'
+339.8287 	EXP 	teaching_152_final.mp4: autoLog = True
+339.8941 	INFO 	Scanner trigger received
+340.9076 	INFO 	Scanner trigger received
+341.8885 	INFO 	Scanner trigger received
+342.2676 	EXP 	Set teaching_152_final.mp4 playing
+342.2712 	WARNING 	MovieStim2 dropping video frame index: 2
+342.3137 	WARNING 	MovieStim2 dropping video frame index: 4
+342.9108 	INFO 	Scanner trigger received
+343.5560 	WARNING 	MovieStim2 dropping video frame index: 41
+343.9081 	INFO 	Scanner trigger received
+344.3440 	WARNING 	MovieStim2 dropping video frame index: 65
+344.7923 	EXP 	Created cooking_35_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cooking_35_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cooking_35_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+344.8307 	EXP 	cooking_35_final.mp4: movie = 'stimuli/cooking_35_final.mp4'
+344.8307 	EXP 	cooking_35_final.mp4: autoLog = True
+344.8961 	INFO 	Scanner trigger received
+345.9096 	INFO 	Scanner trigger received
+346.8903 	INFO 	Scanner trigger received
+347.1714 	EXP 	Set cooking_35_final.mp4 playing
+347.1719 	WARNING 	MovieStim2 dropping video frame index: 2
+347.2175 	WARNING 	MovieStim2 dropping video frame index: 4
+347.9133 	INFO 	Scanner trigger received
+348.9099 	INFO 	Scanner trigger received
+349.6776 	EXP 	Created exercising_102_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/exercising_102_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='exercising_102_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+349.7018 	EXP 	exercising_102_final.mp4: movie = 'stimuli/exercising_102_final.mp4'
+349.7018 	EXP 	exercising_102_final.mp4: autoLog = True
+349.8980 	INFO 	Scanner trigger received
+350.9115 	INFO 	Scanner trigger received
+351.8923 	INFO 	Scanner trigger received
+352.7289 	WARNING 	MovieStim2 dropping video frame index: 1
+352.7781 	EXP 	Set exercising_102_final.mp4 playing
+352.7785 	WARNING 	MovieStim2 dropping video frame index: 3
+352.7885 	WARNING 	MovieStim2 dropping video frame index: 4
+352.9149 	INFO 	Scanner trigger received
+353.0205 	WARNING 	MovieStim2 dropping video frame index: 11
+353.2984 	WARNING 	MovieStim2 dropping video frame index: 19
+353.9137 	INFO 	Scanner trigger received
+354.9090 	INFO 	Scanner trigger received
+355.2680 	EXP 	Created eating_72_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/eating_72_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='eating_72_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+355.2923 	EXP 	eating_72_final.mp4: movie = 'stimuli/eating_72_final.mp4'
+355.2923 	EXP 	eating_72_final.mp4: autoLog = True
+355.9134 	INFO 	Scanner trigger received
+356.8942 	INFO 	Scanner trigger received
+357.6657 	EXP 	Set eating_72_final.mp4 playing
+357.6660 	WARNING 	MovieStim2 dropping video frame index: 2
+357.9166 	INFO 	Scanner trigger received
+358.9140 	INFO 	Scanner trigger received
+359.9108 	INFO 	Scanner trigger received
+360.2060 	EXP 	Created playing_instrument_141_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/playing_instrument_141_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='playing_instrument_141_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+360.2451 	EXP 	playing_instrument_141_final.mp4: movie = 'stimuli/playing_instrument_141_final.mp4'
+360.2451 	EXP 	playing_instrument_141_final.mp4: autoLog = True
+360.8991 	INFO 	Scanner trigger received
+361.9125 	INFO 	Scanner trigger received
+362.1507 	WARNING 	MovieStim2 dropping video frame index: 1
+362.2139 	EXP 	Set playing_instrument_141_final.mp4 playing
+362.2142 	WARNING 	MovieStim2 dropping video frame index: 3
+362.2347 	WARNING 	MovieStim2 dropping video frame index: 4
+362.2887 	WARNING 	MovieStim2 dropping video frame index: 6
+362.3083 	WARNING 	MovieStim2 dropping video frame index: 7
+362.3722 	WARNING 	MovieStim2 dropping video frame index: 9
+362.4415 	WARNING 	MovieStim2 dropping video frame index: 11
+362.5502 	WARNING 	MovieStim2 dropping video frame index: 14
+362.6156 	WARNING 	MovieStim2 dropping video frame index: 16
+362.6810 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+362.9162 	INFO 	Scanner trigger received
+363.9459 	INFO 	Scanner trigger received
+364.6827 	EXP 	Created cosmetics_grooming_49_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cosmetics_grooming_49_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cosmetics_grooming_49_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+364.7240 	EXP 	cosmetics_grooming_49_final.mp4: movie = 'stimuli/cosmetics_grooming_49_final.mp4'
+364.7240 	EXP 	cosmetics_grooming_49_final.mp4: autoLog = True
+364.8875 	INFO 	Scanner trigger received
+365.9010 	INFO 	Scanner trigger received
+366.9144 	INFO 	Scanner trigger received
+367.2614 	EXP 	Set cosmetics_grooming_49_final.mp4 playing
+367.2617 	WARNING 	MovieStim2 dropping video frame index: 2
+367.3070 	WARNING 	MovieStim2 dropping video frame index: 4
+367.9039 	INFO 	Scanner trigger received
+368.9014 	INFO 	Scanner trigger received
+369.7835 	EXP 	Created dancing_59_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/dancing_59_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='dancing_59_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+369.8077 	EXP 	dancing_59_final.mp4: movie = 'stimuli/dancing_59_final.mp4'
+369.8077 	EXP 	dancing_59_final.mp4: autoLog = True
+369.9058 	INFO 	Scanner trigger received
+370.8867 	INFO 	Scanner trigger received
+371.7561 	EXP 	Set dancing_59_final.mp4 playing
+371.7564 	WARNING 	MovieStim2 dropping video frame index: 2
+371.8022 	WARNING 	MovieStim2 dropping video frame index: 4
+371.8855 	INFO 	Scanner trigger received
+372.9066 	INFO 	Scanner trigger received
+373.9035 	INFO 	Scanner trigger received
+374.9077 	INFO 	Scanner trigger received
+375.8885 	INFO 	Scanner trigger received
+376.9019 	INFO 	Scanner trigger received
+377.9154 	INFO 	Scanner trigger received
+378.8853 	EXP 	Created arts_crafts_1_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/arts_crafts_1_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='arts_crafts_1_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+378.9125 	EXP 	arts_crafts_1_final.mp4: movie = 'stimuli/arts_crafts_1_final.mp4'
+378.9125 	EXP 	arts_crafts_1_final.mp4: autoLog = True
+378.9126 	INFO 	Scanner trigger received
+379.8933 	INFO 	Scanner trigger received
+380.8299 	WARNING 	MovieStim2 dropping video frame index: 1
+380.8772 	EXP 	Set arts_crafts_1_final.mp4 playing
+380.8776 	WARNING 	MovieStim2 dropping video frame index: 3
+380.8917 	WARNING 	MovieStim2 dropping video frame index: 4
+380.8927 	INFO 	Scanner trigger received
+381.9133 	INFO 	Scanner trigger received
+382.4599 	WARNING 	MovieStim2 dropping video frame index: 51
+382.9104 	INFO 	Scanner trigger received
+383.3656 	EXP 	Created cosmetics_grooming_41_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cosmetics_grooming_41_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cosmetics_grooming_41_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+383.3913 	EXP 	cosmetics_grooming_41_final.mp4: movie = 'stimuli/cosmetics_grooming_41_final.mp4'
+383.3913 	EXP 	cosmetics_grooming_41_final.mp4: autoLog = True
+383.9144 	INFO 	Scanner trigger received
+384.8952 	INFO 	Scanner trigger received
+385.9087 	INFO 	Scanner trigger received
+386.8895 	INFO 	Scanner trigger received
+387.9029 	INFO 	Scanner trigger received
+388.5927 	EXP 	Set cosmetics_grooming_41_final.mp4 playing
+388.5930 	WARNING 	MovieStim2 dropping video frame index: 2
+388.8858 	INFO 	Scanner trigger received
+389.1618 	WARNING 	MovieStim2 dropping video frame index: 16
+389.8847 	INFO 	Scanner trigger received
+390.8850 	INFO 	Scanner trigger received
+391.1200 	EXP 	Created eating_71_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/eating_71_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='eating_71_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+391.1558 	EXP 	eating_71_final.mp4: movie = 'stimuli/eating_71_final.mp4'
+391.1558 	EXP 	eating_71_final.mp4: autoLog = True
+391.9077 	INFO 	Scanner trigger received
+392.8885 	INFO 	Scanner trigger received
+393.9020 	INFO 	Scanner trigger received
+394.2812 	EXP 	Set eating_71_final.mp4 playing
+394.2815 	WARNING 	MovieStim2 dropping video frame index: 2
+394.3272 	WARNING 	MovieStim2 dropping video frame index: 4
+394.8921 	INFO 	Scanner trigger received
+395.8891 	INFO 	Scanner trigger received
+396.8158 	EXP 	Created gardening_115_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/gardening_115_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='gardening_115_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+396.8442 	EXP 	gardening_115_final.mp4: movie = 'stimuli/gardening_115_final.mp4'
+396.8442 	EXP 	gardening_115_final.mp4: autoLog = True
+396.9097 	INFO 	Scanner trigger received
+397.8904 	INFO 	Scanner trigger received
+398.8557 	WARNING 	MovieStim2 dropping video frame index: 1
+398.8908 	EXP 	Set gardening_115_final.mp4 playing
+398.8911 	WARNING 	MovieStim2 dropping video frame index: 3
+398.9072 	INFO 	Scanner trigger received
+399.9102 	INFO 	Scanner trigger received
+400.9079 	INFO 	Scanner trigger received
+401.3624 	EXP 	Created dancing_64_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/dancing_64_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='dancing_64_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+401.3885 	EXP 	dancing_64_final.mp4: movie = 'stimuli/dancing_64_final.mp4'
+401.3885 	EXP 	dancing_64_final.mp4: autoLog = True
+401.9116 	INFO 	Scanner trigger received
+402.8924 	INFO 	Scanner trigger received
+403.9058 	INFO 	Scanner trigger received
+404.3831 	EXP 	Set dancing_64_final.mp4 playing
+404.3834 	WARNING 	MovieStim2 dropping video frame index: 2
+404.3914 	WARNING 	MovieStim2 dropping video frame index: 3
+404.8959 	INFO 	Scanner trigger received
+405.8930 	INFO 	Scanner trigger received
+406.9098 	EXP 	Created assembly_line_10_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/assembly_line_10_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='assembly_line_10_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+406.9462 	EXP 	assembly_line_10_final.mp4: movie = 'stimuli/assembly_line_10_final.mp4'
+406.9462 	EXP 	assembly_line_10_final.mp4: autoLog = True
+406.9463 	INFO 	Scanner trigger received
+407.8943 	INFO 	Scanner trigger received
+408.9078 	INFO 	Scanner trigger received
+409.8885 	INFO 	Scanner trigger received
+409.9735 	EXP 	Set assembly_line_10_final.mp4 playing
+409.9737 	WARNING 	MovieStim2 dropping video frame index: 2
+410.0195 	WARNING 	MovieStim2 dropping video frame index: 4
+410.9113 	INFO 	Scanner trigger received
+411.9083 	INFO 	Scanner trigger received
+412.4987 	EXP 	Created conversation_26_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/conversation_26_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='conversation_26_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+412.5366 	EXP 	conversation_26_final.mp4: movie = 'stimuli/conversation_26_final.mp4'
+412.5366 	EXP 	conversation_26_final.mp4: autoLog = True
+412.8962 	INFO 	Scanner trigger received
+413.9097 	INFO 	Scanner trigger received
+414.4503 	WARNING 	MovieStim2 dropping video frame index: 1
+414.4516 	WARNING 	MovieStim2 dropping video frame index: 2
+414.5217 	EXP 	Set conversation_26_final.mp4 playing
+414.5220 	WARNING 	MovieStim2 dropping video frame index: 4
+414.5407 	WARNING 	MovieStim2 dropping video frame index: 5
+414.5965 	WARNING 	MovieStim2 dropping video frame index: 7
+414.6619 	WARNING 	MovieStim2 dropping video frame index: 9
+414.7272 	WARNING 	MovieStim2 dropping video frame index: 11
+414.7926 	WARNING 	MovieStim2 dropping video frame index: 13
+414.8580 	WARNING 	MovieStim2 dropping video frame index: 15
+414.8952 	INFO 	Scanner trigger received
+414.9233 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+415.9032 	INFO 	Scanner trigger received
+416.9371 	INFO 	Scanner trigger received
+416.9925 	EXP 	Created exercising_92_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/exercising_92_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='exercising_92_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+417.0318 	EXP 	exercising_92_final.mp4: movie = 'stimuli/exercising_92_final.mp4'
+417.0318 	EXP 	exercising_92_final.mp4: autoLog = True
+417.9145 	INFO 	Scanner trigger received
+418.8953 	INFO 	Scanner trigger received
+419.0783 	EXP 	Set exercising_92_final.mp4 playing
+419.0786 	WARNING 	MovieStim2 dropping video frame index: 2
+419.1244 	WARNING 	MovieStim2 dropping video frame index: 4
+419.8857 	INFO 	Scanner trigger received
+420.9064 	INFO 	Scanner trigger received
+421.6017 	EXP 	Created exercising_98_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/exercising_98_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='exercising_98_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+421.6414 	EXP 	exercising_98_final.mp4: movie = 'stimuli/exercising_98_final.mp4'
+421.6414 	EXP 	exercising_98_final.mp4: autoLog = True
+421.9030 	INFO 	Scanner trigger received
+422.8837 	INFO 	Scanner trigger received
+423.7533 	EXP 	Set exercising_98_final.mp4 playing
+423.7536 	WARNING 	MovieStim2 dropping video frame index: 2
+423.7994 	WARNING 	MovieStim2 dropping video frame index: 4
+423.8911 	INFO 	Scanner trigger received
+424.9036 	INFO 	Scanner trigger received
+425.7119 	WARNING 	MovieStim2 dropping video frame index: 61
+425.9007 	INFO 	Scanner trigger received
+426.9049 	INFO 	Scanner trigger received
+427.8857 	INFO 	Scanner trigger received
+428.6119 	EXP 	Created Left probe: "nibble" = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Left probe: "nibble"', opacity=1.0, ori=0.0, pos=array([-0.35,  0.  ]), rgb=array([ 1.,  1.,  1.]), text=u'"nibble"', units=u'norm', win=Window(...), wrapWidth=1)
+428.6179 	EXP 	Created Right probe: "train" = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='Right probe: "train"', opacity=1.0, ori=0.0, pos=array([ 0.35,  0.  ]), rgb=array([ 1.,  1.,  1.]), text=u'"train"', units=u'norm', win=Window(...), wrapWidth=1)
+428.9155 	INFO 	Scanner trigger received
+429.8963 	INFO 	Scanner trigger received
+430.9097 	INFO 	Scanner trigger received
+431.2087 	EXP 	Created playing_instrument_149_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/playing_instrument_149_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='playing_instrument_149_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+431.2366 	EXP 	playing_instrument_149_final.mp4: movie = 'stimuli/playing_instrument_149_final.mp4'
+431.2366 	EXP 	playing_instrument_149_final.mp4: autoLog = True
+431.8905 	INFO 	Scanner trigger received
+432.9039 	INFO 	Scanner trigger received
+433.1646 	WARNING 	MovieStim2 dropping video frame index: 1
+433.2217 	EXP 	Set playing_instrument_149_final.mp4 playing
+433.2221 	WARNING 	MovieStim2 dropping video frame index: 3
+433.2450 	WARNING 	MovieStim2 dropping video frame index: 4
+433.4110 	WARNING 	MovieStim2 dropping video frame index: 8
+433.5751 	WARNING 	MovieStim2 dropping video frame index: 12
+433.6561 	WARNING 	MovieStim2 dropping video frame index: 14
+433.8687 	WARNING 	MovieStim2 dropping video frame index: 19
+433.9168 	INFO 	Scanner trigger received
+433.9504 	WARNING 	MovieStim2 dropping video frame index: 21
+434.1629 	WARNING 	MovieStim2 dropping video frame index: 26
+434.3263 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+434.8853 	INFO 	Scanner trigger received
+435.7179 	EXP 	Created assembly_line_16_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/assembly_line_16_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='assembly_line_16_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+435.7482 	EXP 	assembly_line_16_final.mp4: movie = 'stimuli/assembly_line_16_final.mp4'
+435.7482 	EXP 	assembly_line_16_final.mp4: autoLog = True
+435.9116 	INFO 	Scanner trigger received
+436.8924 	INFO 	Scanner trigger received
+437.6746 	WARNING 	MovieStim2 dropping video frame index: 1
+437.6797 	WARNING 	MovieStim2 dropping video frame index: 2
+437.7496 	EXP 	Set assembly_line_16_final.mp4 playing
+437.7499 	WARNING 	MovieStim2 dropping video frame index: 4
+437.7701 	WARNING 	MovieStim2 dropping video frame index: 5
+437.8944 	WARNING 	MovieStim2 dropping video frame index: 8
+437.9336 	INFO 	Scanner trigger received
+437.9715 	WARNING 	MovieStim2 dropping video frame index: 10
+438.1350 	WARNING 	MovieStim2 dropping video frame index: 14
+438.2167 	WARNING 	MovieStim2 dropping video frame index: 16
+438.3313 	WARNING 	MovieStim2 dropping video frame index: 19
+438.4946 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+438.9079 	INFO 	Scanner trigger received
+439.8899 	INFO 	Scanner trigger received
+440.2196 	EXP 	Created dancing_62_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/dancing_62_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='dancing_62_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+440.2597 	EXP 	dancing_62_final.mp4: movie = 'stimuli/dancing_62_final.mp4'
+440.2597 	EXP 	dancing_62_final.mp4: autoLog = True
+440.9136 	INFO 	Scanner trigger received
+441.8943 	INFO 	Scanner trigger received
+442.9078 	INFO 	Scanner trigger received
+442.9601 	EXP 	Set dancing_62_final.mp4 playing
+442.9604 	WARNING 	MovieStim2 dropping video frame index: 2
+443.0062 	WARNING 	MovieStim2 dropping video frame index: 4
+443.8976 	INFO 	Scanner trigger received
+444.9111 	INFO 	Scanner trigger received
+445.4769 	EXP 	Created hugging_kissing_127_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/hugging_kissing_127_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='hugging_kissing_127_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+445.5068 	EXP 	hugging_kissing_127_final.mp4: movie = 'stimuli/hugging_kissing_127_final.mp4'
+445.5068 	EXP 	hugging_kissing_127_final.mp4: autoLog = True
+445.8992 	INFO 	Scanner trigger received
+446.9126 	INFO 	Scanner trigger received
+447.4552 	EXP 	Set hugging_kissing_127_final.mp4 playing
+447.4556 	WARNING 	MovieStim2 dropping video frame index: 2
+447.5044 	WARNING 	MovieStim2 dropping video frame index: 4
+447.9026 	INFO 	Scanner trigger received
+448.8995 	INFO 	Scanner trigger received
+449.8882 	INFO 	Scanner trigger received
+450.0349 	EXP 	Created exercising_108_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/exercising_108_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='exercising_108_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+450.0674 	EXP 	exercising_108_final.mp4: movie = 'stimuli/exercising_108_final.mp4'
+450.0674 	EXP 	exercising_108_final.mp4: autoLog = True
+450.8848 	INFO 	Scanner trigger received
+451.8982 	INFO 	Scanner trigger received
+452.0364 	WARNING 	MovieStim2 dropping video frame index: 1
+452.0378 	WARNING 	MovieStim2 dropping video frame index: 2
+452.0550 	WARNING 	MovieStim2 dropping video frame index: 3
+452.1179 	EXP 	Set exercising_108_final.mp4 playing
+452.1182 	WARNING 	MovieStim2 dropping video frame index: 5
+452.1340 	WARNING 	MovieStim2 dropping video frame index: 6
+452.2090 	WARNING 	MovieStim2 dropping video frame index: 8
+452.3726 	WARNING 	MovieStim2 dropping video frame index: 12
+452.4869 	WARNING 	MovieStim2 dropping video frame index: 15
+452.6504 	WARNING 	MovieStim2 dropping video frame index: 19
+452.8139 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+452.8986 	INFO 	Scanner trigger received
+453.9363 	INFO 	Scanner trigger received
+454.5259 	EXP 	Created teaching_158_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/teaching_158_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='teaching_158_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+454.5626 	EXP 	teaching_158_final.mp4: movie = 'stimuli/teaching_158_final.mp4'
+454.5626 	EXP 	teaching_158_final.mp4: autoLog = True
+454.8896 	INFO 	Scanner trigger received
+455.9030 	INFO 	Scanner trigger received
+456.6468 	WARNING 	MovieStim2 dropping video frame index: 1
+456.6908 	EXP 	Set teaching_158_final.mp4 playing
+456.6911 	WARNING 	MovieStim2 dropping video frame index: 3
+456.9093 	INFO 	Scanner trigger received
+457.9066 	INFO 	Scanner trigger received
+458.8783 	WARNING 	MovieStim2 dropping video frame index: 69
+458.8837 	INFO 	Scanner trigger received
+459.1754 	EXP 	Created eating_180_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/eating_180_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='eating_180_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+459.2049 	EXP 	eating_180_final.mp4: movie = 'stimuli/eating_180_final.mp4'
+459.2049 	EXP 	eating_180_final.mp4: autoLog = True
+459.8915 	INFO 	Scanner trigger received
+460.9050 	INFO 	Scanner trigger received
+461.2503 	WARNING 	MovieStim2 dropping video frame index: 1
+461.2841 	EXP 	Set eating_180_final.mp4 playing
+461.2844 	WARNING 	MovieStim2 dropping video frame index: 3
+461.7062 	WARNING 	MovieStim2 dropping video frame index: 16
+461.8949 	INFO 	Scanner trigger received
+462.9083 	INFO 	Scanner trigger received
+463.8064 	EXP 	Created cosmetics_grooming_55_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cosmetics_grooming_55_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cosmetics_grooming_55_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+463.8309 	EXP 	cosmetics_grooming_55_final.mp4: movie = 'stimuli/cosmetics_grooming_55_final.mp4'
+463.8309 	EXP 	cosmetics_grooming_55_final.mp4: autoLog = True
+463.8963 	INFO 	Scanner trigger received
+464.9097 	INFO 	Scanner trigger received
+465.8905 	INFO 	Scanner trigger received
+466.0632 	WARNING 	MovieStim2 dropping video frame index: 1
+466.1266 	EXP 	Set cosmetics_grooming_55_final.mp4 playing
+466.1269 	WARNING 	MovieStim2 dropping video frame index: 3
+466.1480 	WARNING 	MovieStim2 dropping video frame index: 4
+466.2195 	WARNING 	MovieStim2 dropping video frame index: 6
+466.3485 	WARNING 	MovieStim2 dropping video frame index: 9
+466.5119 	WARNING 	MovieStim2 dropping video frame index: 13
+466.7244 	WARNING 	MovieStim2 dropping video frame index: 18
+466.8879 	WARNING 	MovieStim2 dropping video frame index: 22
+466.8990 	INFO 	Scanner trigger received
+467.1004 	WARNING 	MovieStim2 dropping video frame index: 27
+467.2638 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+467.8907 	INFO 	Scanner trigger received
+468.5790 	EXP 	Created dancing_69_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/dancing_69_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='dancing_69_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+468.6203 	EXP 	dancing_69_final.mp4: movie = 'stimuli/dancing_69_final.mp4'
+468.6203 	EXP 	dancing_69_final.mp4: autoLog = True
+468.9146 	INFO 	Scanner trigger received
+469.8953 	INFO 	Scanner trigger received
+470.7649 	EXP 	Set dancing_69_final.mp4 playing
+470.7652 	WARNING 	MovieStim2 dropping video frame index: 2
+470.8110 	WARNING 	MovieStim2 dropping video frame index: 4
+470.9018 	INFO 	Scanner trigger received
+471.9151 	INFO 	Scanner trigger received
+472.9123 	INFO 	Scanner trigger received
+473.9165 	INFO 	Scanner trigger received
+474.8973 	INFO 	Scanner trigger received
+475.9108 	INFO 	Scanner trigger received
+476.8915 	INFO 	Scanner trigger received
+477.8959 	EXP 	Created conversation_31_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/conversation_31_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='conversation_31_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+477.9213 	EXP 	conversation_31_final.mp4: movie = 'stimuli/conversation_31_final.mp4'
+477.9213 	EXP 	conversation_31_final.mp4: autoLog = True
+477.9214 	INFO 	Scanner trigger received
+478.9021 	INFO 	Scanner trigger received
+479.9156 	INFO 	Scanner trigger received
+480.1640 	EXP 	Set conversation_31_final.mp4 playing
+480.1643 	WARNING 	MovieStim2 dropping video frame index: 2
+480.2101 	WARNING 	MovieStim2 dropping video frame index: 4
+480.9056 	INFO 	Scanner trigger received
+481.0438 	WARNING 	MovieStim2 dropping video frame index: 29
+481.9032 	INFO 	Scanner trigger received
+482.6784 	EXP 	Created cooking_39_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cooking_39_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cooking_39_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+482.7107 	EXP 	cooking_39_final.mp4: movie = 'stimuli/cooking_39_final.mp4'
+482.7107 	EXP 	cooking_39_final.mp4: autoLog = True
+482.9069 	INFO 	Scanner trigger received
+483.8877 	INFO 	Scanner trigger received
+484.9012 	INFO 	Scanner trigger received
+485.4765 	EXP 	Set cooking_39_final.mp4 playing
+485.4768 	WARNING 	MovieStim2 dropping video frame index: 2
+485.8908 	INFO 	Scanner trigger received
+486.0294 	WARNING 	MovieStim2 dropping video frame index: 19
+486.8883 	INFO 	Scanner trigger received
+487.8854 	INFO 	Scanner trigger received
+488.0468 	EXP 	Created using_tools_168_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/using_tools_168_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='using_tools_168_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+488.0723 	EXP 	using_tools_168_final.mp4: movie = 'stimuli/using_tools_168_final.mp4'
+488.0723 	EXP 	using_tools_168_final.mp4: autoLog = True
+488.8896 	INFO 	Scanner trigger received
+489.9031 	INFO 	Scanner trigger received
+490.1970 	WARNING 	MovieStim2 dropping video frame index: 1
+490.1983 	WARNING 	MovieStim2 dropping video frame index: 2
+490.2176 	WARNING 	MovieStim2 dropping video frame index: 3
+490.2868 	EXP 	Set using_tools_168_final.mp4 playing
+490.2871 	WARNING 	MovieStim2 dropping video frame index: 5
+490.3037 	WARNING 	MovieStim2 dropping video frame index: 6
+490.3217 	WARNING 	MovieStim2 dropping video frame index: 7
+490.3960 	WARNING 	MovieStim2 dropping video frame index: 9
+490.4591 	WARNING 	MovieStim2 dropping video frame index: 11
+490.5245 	WARNING 	MovieStim2 dropping video frame index: 13
+490.5899 	WARNING 	Multiple Movie frames have occurred - I'll stop bothering you about them!
+490.8925 	INFO 	Scanner trigger received
+491.9308 	INFO 	Scanner trigger received
+492.7564 	EXP 	Created arts_crafts_6_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/arts_crafts_6_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='arts_crafts_6_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+492.7963 	EXP 	arts_crafts_6_final.mp4: movie = 'stimuli/arts_crafts_6_final.mp4'
+492.7963 	EXP 	arts_crafts_6_final.mp4: autoLog = True
+492.8945 	INFO 	Scanner trigger received
+493.9079 	INFO 	Scanner trigger received
+494.8441 	WARNING 	MovieStim2 dropping video frame index: 1
+494.8919 	EXP 	Set arts_crafts_6_final.mp4 playing
+494.8922 	WARNING 	MovieStim2 dropping video frame index: 3
+494.8999 	WARNING 	MovieStim2 dropping video frame index: 4
+494.9015 	INFO 	Scanner trigger received
+495.8952 	INFO 	Scanner trigger received
+496.8922 	INFO 	Scanner trigger received
+497.2101 	WARNING 	MovieStim2 dropping video frame index: 73
+497.3875 	EXP 	Created gardening_120_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/gardening_120_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='gardening_120_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+497.4223 	EXP 	gardening_120_final.mp4: movie = 'stimuli/gardening_120_final.mp4'
+497.4223 	EXP 	gardening_120_final.mp4: autoLog = True
+497.9127 	INFO 	Scanner trigger received
+498.8935 	INFO 	Scanner trigger received
+499.8611 	EXP 	Set gardening_120_final.mp4 playing
+499.8614 	WARNING 	MovieStim2 dropping video frame index: 2
+499.9072 	WARNING 	MovieStim2 dropping video frame index: 4
+499.9126 	INFO 	Scanner trigger received
+500.9130 	INFO 	Scanner trigger received
+501.9103 	INFO 	Scanner trigger received
+502.3892 	EXP 	Created cosmetics_grooming_46_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/cosmetics_grooming_46_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='cosmetics_grooming_46_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+502.4243 	EXP 	cosmetics_grooming_46_final.mp4: movie = 'stimuli/cosmetics_grooming_46_final.mp4'
+502.4243 	EXP 	cosmetics_grooming_46_final.mp4: autoLog = True
+502.9147 	INFO 	Scanner trigger received
+503.8954 	INFO 	Scanner trigger received
+504.9089 	INFO 	Scanner trigger received
+505.1573 	EXP 	Set cosmetics_grooming_46_final.mp4 playing
+505.1576 	WARNING 	MovieStim2 dropping video frame index: 2
+505.2033 	WARNING 	MovieStim2 dropping video frame index: 4
+505.8985 	INFO 	Scanner trigger received
+506.8957 	INFO 	Scanner trigger received
+507.6729 	EXP 	Created eating_86_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/eating_86_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='eating_86_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+507.7041 	EXP 	eating_86_final.mp4: movie = 'stimuli/eating_86_final.mp4'
+507.7041 	EXP 	eating_86_final.mp4: autoLog = True
+507.9003 	INFO 	Scanner trigger received
+508.9137 	INFO 	Scanner trigger received
+509.8945 	INFO 	Scanner trigger received
+510.7804 	EXP 	Set eating_86_final.mp4 playing
+510.7807 	WARNING 	MovieStim2 dropping video frame index: 2
+510.9170 	INFO 	Scanner trigger received
+511.9140 	INFO 	Scanner trigger received
+512.9113 	INFO 	Scanner trigger received
+513.2856 	EXP 	Created using_tools_180_final.mp4 = MovieStim2(autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='stimuli/using_tools_180_final.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='using_tools_180_final.mp4', noAudio=UNKNOWN, opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 720.,  405.]), units='pix', vframe_callback=UNKNOWN, volume=1.0, win=Window(...))
+513.3108 	EXP 	using_tools_180_final.mp4: movie = 'stimuli/using_tools_180_final.mp4'
+513.3108 	EXP 	using_tools_180_final.mp4: autoLog = True
+513.8993 	INFO 	Scanner trigger received
+514.9128 	INFO 	Scanner trigger received
+515.4279 	WARNING 	MovieStim2 dropping video frame index: 1
+515.4717 	EXP 	Set using_tools_180_final.mp4 playing
+515.4720 	WARNING 	MovieStim2 dropping video frame index: 3
+515.5179 	WARNING 	MovieStim2 dropping video frame index: 5
+515.8865 	INFO 	Scanner trigger received
+516.9157 	INFO 	Scanner trigger received
+517.9133 	INFO 	Scanner trigger received
+518.8849 	INFO 	Scanner trigger received
+519.8983 	INFO 	Scanner trigger received
+520.9118 	INFO 	Scanner trigger received
+521.8926 	INFO 	Scanner trigger received
+522.9060 	INFO 	Scanner trigger received
+523.8868 	INFO 	Scanner trigger received
+524.9003 	INFO 	Scanner trigger received
+525.9138 	INFO 	Scanner trigger received
+526.8945 	INFO 	Scanner trigger received
+527.9080 	INFO 	Scanner trigger received
+528.8887 	INFO 	Scanner trigger received
+529.9022 	INFO 	Scanner trigger received
+530.9157 	INFO 	Scanner trigger received
+531.8964 	INFO 	Scanner trigger received
+532.9099 	INFO 	Scanner trigger received
+533.8907 	INFO 	Scanner trigger received
+535.0024 	INFO 	Finished run successfully!
+535.0025 	EXP 	Window: mouseVisible = True
